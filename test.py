@@ -55,11 +55,11 @@ class TestDet(unittest.TestCase):
 			A = np.random.randn(m,n)
 
 			d = abs_det(A)
-			d2 = la.det(A)
+			d2 = np.linalg.det(A)
 
 			self.assertAlmostEqual(d, abs(d2))
 
-class TestComplex():
+class TestComplex(unittest.TestCase):
 
 	def setUp(self):
 		pass
