@@ -4,7 +4,7 @@ Please put any written answers in [`answers.md`](answers.md)
 
 Reminder: you can embed images in markdown.  If you are asked to make a plot, save it as a `png` file, commit it to git, and embed it in this file.
 
-Please complete the code [`script.ipynb`](script.ipynb) to finish all tasks.
+Please complete the code [`script.py`](script.py) to finish all tasks.
 
 You can run
 ```
